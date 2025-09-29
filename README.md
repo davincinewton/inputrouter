@@ -6,13 +6,15 @@
 ## 安装方法
 直接下载解压运行.exe文件
 ## 下载包
-- 不包括模型下载包，运行后自动下载模型（需要能够连Huggingface）
+- 不包括模型的程序压缩包，解压运行后自动下载模型（需要能够连Huggingface）
 - release_a_270925.zip.001
 - release_a_270925.zip.002
 - 目前仅Windows平台
 ## 目前可选模型
 - Qwen3 0.6B模型
 - Qwen3 1.7B模型
+## 如果无法连接huggingface.co
+- 手动下载 “Qwen3-0.6B-Q8_0.gguf”，“Qwen3-1.7B-Q6_K.gguf”，如果文件名不一样，变更文件名和这里一样，放置到和 inputrouter.exe 文件同一个目录即可。
 ## 图片
 ![UI](ui.png)
 ![Settings](settings.png)
