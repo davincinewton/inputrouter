@@ -22,12 +22,11 @@ Download and extract the package, then run the .exe file directly.
 ## Download Packages  
 ## 下载包
 
+- *.zip.001  
+- *.zip.002
+
 - Program archive without models included; after extraction and execution, models will be downloaded automatically (requires access to Hugging Face).  
 - 不包括模型的程序压缩包，解压运行后自动下载模型（需要能够连Huggingface）
-
-- release_a_270925.zip.001  
-- release_a_270925.zip.001
-
 - Currently available only for Windows.  
 - 目前仅Windows平台
 
