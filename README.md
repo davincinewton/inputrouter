@@ -11,7 +11,7 @@
 |--------|------|
 | Type in one language and instantly see the translation in another — for example, type in Chinese and get real-time English output, or type in English to generate Chinese. Click the translated text to insert it directly into target applications such as Word, chat apps, email clients, etc. | 输入一种语言，实时转换为另一种语言 —— 例如，中文输入即时转英文，英文输入即时转中文。点击翻译结果，可直接插入到 Word、聊天软件、邮件等目标应用中。 |
 | Supports direct mutual translation among **20+ languages**. Also enables **clipboard translation**: simply copy text, and the translated version appears immediately. | 支持 **20 多种语言**之间的直接互译。支持**剪贴板翻译**：复制需要翻译的文本，翻译结果立即显示。 |
-| Built-in **local LLM models** run entirely on CPU — no GPU required. Once downloaded, the model works **fully offline** without internet access. | 内置**本地大语言模型**，纯 CPU 运行，无需显卡。模型下载后可**完全离线使用**，无需联网。 |
+| Built-in **local LLM models** run entirely on CPU — no GPU required. Once downloaded, the model works **fully offline** without internet access. | 内置**本地大语言模型**，可以纯 CPU 运行，无需显卡，如有显卡（GPU），会自动选中显卡运行，速度更快。模型下载后可**完全离线使用**，无需联网。 |
 
 ---
 
@@ -63,10 +63,10 @@
 
 ## 🤖 Currently Available Models / 目前可选模型
 
-| Model | Size | Performance |
-|------|------|-------------|
-| `Qwen3 0.6B` | ~600M parameters | Fast on low-end CPUs |
-| `Qwen3 1.7B` | ~1.7B parameters | Higher accuracy, moderate speed |
+| Model / 模型 | Size / 参数规模 | Performance / 性能说明 |
+|-------------|----------------|------------------------|
+| `Qwen3 0.6B` | ~600M parameters<br>约 6 亿参数 | Good choice for CPU only<br>纯 CPU 环境下的理想选择，运行速度快，占用资源少 |
+| `Qwen3 1.7B` | ~1.7B parameters<br>约 17 亿参数 | Higher accuracy, moderate speed<br>翻译准确率更高，速度适中，适合对质量要求较高的场景 |
 
 > 💡 The app will prompt you to select a model on first launch.  
 > 💡 首次运行时，程序将提示选择模型。
