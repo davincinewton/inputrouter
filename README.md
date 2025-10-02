@@ -11,7 +11,7 @@
 |--------|------|
 | Type in one language and instantly see the translation in another — for example, type in Chinese and get real-time English output, or type in English to generate Chinese. Click the translated text to insert it directly into target applications such as Word, chat apps, email clients, etc. | 输入一种语言，实时转换为另一种语言 —— 例如，中文输入即时转英文，英文输入即时转中文。点击翻译结果，可直接插入到 Word、聊天软件、邮件等目标应用中。 |
 | Supports direct mutual translation among **20+ languages**. Also enables **clipboard translation**: simply copy text, and the translated version appears immediately. | 支持 **20 多种语言**之间的直接互译。支持**剪贴板翻译**：复制需要翻译的文本，翻译结果立即显示。 |
-| Built-in **local LLM models** run entirely on CPU — no GPU required. Once downloaded, the model works **fully offline** without internet access. | 内置**本地大语言模型**，可以纯 CPU 运行，无需显卡，如有显卡（GPU），会自动选中显卡运行，速度更快。模型下载后可**完全离线使用**，无需联网。 |
+| Built-in local large language model, can run purely on CPU, no GPU required. If there is a GPU, it will automatically select the GPU for running, faster speed. The model can be completely used offline after downloading, no need to connect to the internet. | 内置**本地大语言模型**，可以纯 CPU 运行，无需显卡，如有显卡（GPU），会自动选中显卡运行，速度更快。模型下载后可**完全离线使用**，无需联网。 |
 
 ---
 
