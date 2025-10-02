@@ -1,7 +1,3 @@
-以下是对原始 Markdown 文档的重新组织与优化，使其结构更清晰、逻辑更合理、视觉上更美观。中英文内容采用**并列对照式布局**（左英文右中文），层级分明，便于双语读者阅读。
-
----
-
 # 🌍 Instant Multilingual Translation with `inputrouter`  
 # 🌐 inputrouter — 即时多语言互译工具
 
@@ -116,7 +112,3 @@ Have questions or suggestions? Reach out via GitHub or email!
 
 ---
 
-
-- 加入“反馈”和“隐私声明”部分，增强专业感
-
-如需导出为 PDF 或发布网页，此结构也更友好。
