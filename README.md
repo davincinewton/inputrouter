@@ -50,10 +50,8 @@
 
 ## 📦 Download Packages / 下载包
 
-- `inputrouter.zip.001`
-- `inputrouter.zip.002`
+- `inputrouter.zip` in Release.
 
-> 🔧 **Note**: This is a split archive. Use 7-Zip or WinRAR to extract both parts together.
 
 | English | 中文 |
 |--------|------|
@@ -67,6 +65,7 @@
 |-------------|----------------|------------------------|
 | `Qwen3 0.6B` | ~600M parameters<br>约 6 亿参数 | Good choice for CPU only<br>纯 CPU 环境下的理想选择，运行速度快，占用资源少 |
 | `Qwen3 1.7B` | ~1.7B parameters<br>约 17 亿参数 | Higher accuracy, moderate speed<br>翻译准确率更高，速度适中，适合对质量要求较高的场景 |
+| `Qwen3 4B Instruct` | ~4B parameters<br>约 40 亿参数 | Higher accuracy, fast speed<br>翻译准确率更高，速度快，适合对质量要求较高的场景 |
 
 > 💡 The app will prompt you to select a model on first launch.  
 > 💡 首次运行时，程序将提示选择模型。
@@ -78,7 +77,7 @@
 | English | 中文 |
 |--------|------|
 | If automatic model download fails due to network restrictions: | 若因网络限制无法自动下载模型： |
-| 1. Manually download the following files:<br>   - [`Qwen3-0.6B-Q8_0.gguf`](https://huggingface.co/Qwen/Qwen3-0.6B-GGUF/)<br>   - [`Qwen3-1.7B-Q6_K.gguf`](https://huggingface.co/Qwen/Qwen3-1.7B-GGUF/)<br>2. Ensure filenames match **exactly** as listed.<br>3. Place them in the **same directory** as `inputrouter.exe`. | 1. 手动下载以下文件：<br>   - `Qwen3-0.6B-Q8_0.gguf`<br>   - `Qwen3-1.7B-Q6_K.gguf`<br>2. 确保文件名**完全一致**。<br>3. 将文件放入 `inputrouter.exe` 所在的**同一目录**。 |
+| 1. Manually download the following files:<br>   - `Qwen3-0.6B-Q8_0.gguf`<br>   - `Qwen3-1.7B-Q6_K.gguf`<br>  - `Qwen3-4B-Instruct-2507-IQ4_XS.gguf`<br>2. Ensure filenames match **exactly** as listed.<br>3. Place them in the **same directory** as `inputrouter.exe`. | 1. 手动下载以下文件：<br>   - `Qwen3-0.6B-Q8_0.gguf`<br>   - `Qwen3-1.7B-Q6_K.gguf`<br>  - `Qwen3-4B-Instruct-2507-IQ4_XS.gguf`<br>2. 确保文件名**完全一致**。<br>3. 将文件放入 `inputrouter.exe` 所在的**同一目录**。 |
 
 ---
 
